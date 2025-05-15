@@ -6,7 +6,7 @@ function click(){
 	const phone=document.getElementById("phone").value.trim()
 	const emailid=document.getElementById("emailid").value.trim()
 
-	const msg=``
+	const msg=`First Name: ${firstName} Last Name: ${LastName} Phone Number: ${phone} Email ID: ${emailid}`
 	
-	alert(`First Name: ${firstName} Last Name: ${LastName} Phone Number: ${phone} Email ID: ${emailid}`);
+	alert(msg);
 }

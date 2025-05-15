@@ -20,7 +20,11 @@
 	<label>Email ID:</label>
 	<input type="email" name="Email ID" id="emailid"><br>
 
-	<button type="submit" onclick="click()" id="submitbtn">Submit</button>
+	<form onsubmit="onclick(); return false;">
+		<button type="submit">Submit</button>
+	</form>
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
